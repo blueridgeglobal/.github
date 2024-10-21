@@ -1,6 +1,6 @@
 {
-    "name": "BlueRidge Organization Workflow",
-    "description": "BlueRidge Organization CI workflow template.",
+    "name": "BlueRidge Organization DevOps Workflow",
+    "description": "BlueRidge Organization DevOps CI workflow template.",
     "iconName": "BlueRidge",
     "categories": [
         "Go"

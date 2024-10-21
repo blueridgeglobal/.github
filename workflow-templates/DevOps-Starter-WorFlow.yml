@@ -1,4 +1,4 @@
-name: BlueRidge Organization CI
+name: BlueRidge Organization DevOps CI
 
 on:
   push:
@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run a one-line script
-        run: echo Hello from BlueRidge Organization Organization
+        run: echo Hello from BlueRidge Organization DevOps Team created this
