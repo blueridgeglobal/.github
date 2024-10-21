@@ -1,9 +1,14 @@
-
-    {
-        "name": "DevOps starter workflow",
-        "description": "Build and test a .net project.",
-        "iconName": ".net",
-        "categories": ["Continuous integration", ".net"]
-       
-    }
+{
+    "name": "BlueRidge Organization Workflow",
+    "description": "BlueRidge Organization CI workflow template.",
+    "iconName": "BlueRidge",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
 

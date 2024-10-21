@@ -1,10 +1,17 @@
-name: DevOps team Organization GA Starter Work Flow
+name: BlueRidge Organization CI
 
-on: workflow_dispatch
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
 
 jobs:
-    JobName1:
-        runs-on: ubuntu-latest
-        steps:
-            - name: StepName1
-              run: echo "echo first step"
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run a one-line script
+        run: echo Hello from BlueRidge Organization Organization
