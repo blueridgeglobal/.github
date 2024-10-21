@@ -1,1 +1,10 @@
 name: DevOps team Organization GA Starter Work Flow
+
+on: workflow_dispatch
+
+jobs:
+    JobName1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: StepName1
+              run: echo "echo first step"
