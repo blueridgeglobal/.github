@@ -1,0 +1,9 @@
+
+    {
+        "name": "DevOps starter workflow",
+        "description": "Build and test a .net project.",
+        "iconName": ".net",
+        "categories": ["Continuous integration", ".net"],
+        "labels": ["preview"]
+    }
+
